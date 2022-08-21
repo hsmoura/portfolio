@@ -7,10 +7,10 @@ export default function Works() {
   const data = [
     {
       id: 1,
-      icon: "./assets/mobile.png",
+      icon: "assets/mobile.png",
       title: "Baby Cry Recording App",
       desc: "This app was created in the scope of my master thesis, Automatic Recognition of Baby Cry. The thesis consisted in extracting acoustic information from baby cry audios using the Librosa library from python and using pattern recognition and machine learning techniques to create an automatic baby cry classifier that was capable of discerning cries of hunger from cries of pain. Additionally, the android application displayed was created to record and store baby cry audios, with the intent of producing a labeled database for further studies.",
-      img: "./assets/thirdversion.png"
+      img: "assets/thirdversion.png"
     },
     {
       id: 2,
