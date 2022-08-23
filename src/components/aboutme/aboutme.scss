@@ -66,21 +66,23 @@
         justify-content: center;
         flex-direction: column;
         padding: 50px 50px 50px 50px;
-        margin-right: 200px;
+        margin-right: 100px;
         border-radius: 35px;
         background-color: white;
         
 
         @include mobile{
-            padding: 10px 10px 10px 10px;
+            padding: 20px 20px 20px 20px;
             margin-right: 10px;
             margin-left: 10px;
             margin-bottom: 70px;
             flex: 2;
+            
         }
         
 
         .containerA{
+            overflow: hidden;
             h2{
                 font-size: 50px;
                 margin: 25px 0;
@@ -98,6 +100,7 @@
             }
         }
         .containerB{
+            overflow: hidden;
             h2{
                 font-size: 50px;
                 margin: 25px 0;
