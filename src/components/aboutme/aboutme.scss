@@ -82,13 +82,13 @@
         
 
         .containerA{
-            overflow: hidden;
             h2{
                 font-size: 50px;
                 margin: 25px 0;
                 @include mobile{
                     font-size: 20px;
                     margin: 5px 0;
+                    overflow: hidden;
                 }
             }
             p{
@@ -100,13 +100,13 @@
             }
         }
         .containerB{
-            overflow: hidden;
             h2{
                 font-size: 50px;
                 margin: 25px 0;
                 @include mobile{
                     font-size: 20px;
                     margin: 5px 0;
+                    overflow: hidden;
                 }
             }
             p{
