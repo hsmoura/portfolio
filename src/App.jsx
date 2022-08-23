@@ -5,6 +5,7 @@ import Aboutme from "./components/aboutme/Aboutme"
 import Works from "./components/works/Works"
 //import Testimonials from "./components/testimonials/Testimonials"
 import Contact from "./components/contact/Contact"
+import Photoshop from "./components/photoshop/Photoshop"
 import "./app.scss"
 import {useState} from "react"
 import Menu from "./components/menu/Menu"
@@ -21,6 +22,7 @@ function App() {
         <Intro/>
         <Aboutme/>
         <Works/>
+        <Photoshop/>
         <Contact/>
       </div>
       

@@ -22,6 +22,9 @@ export default function ({menuOpen, setMenuOpen}) {
                 <a href="#works">Works</a>
             </li>
             <li onClick={()=>setMenuOpen(false)}>
+                <a href="#photoshop">Photoshop</a>
+            </li>
+            <li onClick={()=>setMenuOpen(false)}>
                 <a href="#contact">Contact</a>
             </li>
             <li onClick={()=>openInNewTab('https://drive.google.com/file/d/1L0W2Ss390_Jc9biC70AHAfM22J5ge4Ni/view?usp=sharing')}>

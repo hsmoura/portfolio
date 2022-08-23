@@ -1,0 +1,21 @@
+@import "../../global.scss";
+
+.product{
+    width: 400px;
+    height: 420px;
+    margin: 20px 10px;
+    border: 2px solid rgba(199, 185, 185, 0.67);
+    border-radius: 20px;
+    overflow: hidden;
+
+    @include mobile{
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 210px;
+    }
+
+    img{
+        width: 100%;
+    }
+}
