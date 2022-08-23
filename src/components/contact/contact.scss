@@ -10,6 +10,9 @@
     .left{
         flex: 1;
         overflow: hidden;
+
+
+
         img{
             height: 100%;
         }
@@ -20,6 +23,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        @include mobile{
+            flex:2;
+        }
         
     }
 
@@ -34,26 +41,32 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+
         input{
-            width: 300px;
+            width: 70%;
             height: 30px;
             font-size: 14px;
             @include mobile{
-                width: 200px;
+                width: 70%;
                 height: 20px;
             }
         }
         textarea{
-            width: 300px;
+            width: 70%;
             height: 200px;
             font-size: 14px;
+            resize: none;
             @include mobile{
-                width: 200px;
-                height: 100px;
+                width: 70%;
+                height: 80px;
             }
         }
+        p{
+            font-size: 14px;
+            color: #333;
+        }
         button{
-            width: 150px;
+            width: 40%;
             height: 30px;
             color: white;
             background-color: crimson;
