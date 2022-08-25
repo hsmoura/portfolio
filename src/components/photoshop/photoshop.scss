@@ -10,7 +10,8 @@
     
     h2{
         font-size: 70px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+        padding-bottom: 40px;
         overflow: hidden;
         @include mobile{
             font-size: 20px;
@@ -20,6 +21,7 @@
     p{
         font-size: 20px;
         margin-bottom: 40px;
+        padding-bottom: 30px;
         overflow: hidden;
         @include mobile{
             font-size: 14px;
@@ -30,15 +32,16 @@
 
     .clist{
         width: 80%;
-        height: 70%;
-        padding-right: 100px;
-        padding-left: 100px;
+        height: 90%;
+        padding-right: 200px;
+        padding-left: 200px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         @include mobile{
             padding-left: 100px;
-            justify-content: center;
+            padding-right: 100px;
+            
         }
     }
     /* hide scrollbar for chrome, safari and opera */

@@ -49,6 +49,7 @@
             height: 30px;
             font-size: 14px;
             border-radius: 15px;
+            padding-left: 20px;
             @include mobile{
                 width: 70%;
                 height: 20px;
@@ -60,6 +61,8 @@
             font-size: 14px;
             resize: none;
             border-radius: 15px;
+            padding-left: 20px;
+            padding-top: 5px;
             @include mobile{
                 width: 70%;
                 height: 80px;
