@@ -34,9 +34,10 @@
             background-color: rgb(15, 83, 83);
             @include mobile{
                 width: 40%;
-                height: 25vh;
+                height: 20vh;
                 top: 0px;
                 left: 100px;
+                border-radius: 20px;
             }
             
         }
@@ -49,7 +50,8 @@
 
             @include mobile{
                 width: 40%;
-                height: 25vh;
+                height: 20vh;
+                border-radius: 20px;
             }
             img{
                 width: 100%;
@@ -98,6 +100,10 @@
                     font-size: 12px;
                 }
             }
+            @include mobile{
+                margin-bottom: 20px;
+            }
+
         }
         .containerB{
             h2{

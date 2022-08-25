@@ -9,7 +9,8 @@
 
     
     h2{
-        font-size: 70px;
+        font-size: 60px;
+        margin-top: 10px;
         margin-bottom: 20px;
         padding-bottom: 40px;
         overflow: hidden;
@@ -37,7 +38,7 @@
         padding-left: 200px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-center;
         @include mobile{
             padding-left: 100px;
             padding-right: 100px;
