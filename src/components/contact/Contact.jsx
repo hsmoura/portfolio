@@ -59,10 +59,10 @@ export default function Contact() {
         <div className="right">
           <h2>Contact.</h2>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor:"#FFF"}} type="text" placeholder="Name*" name="user_name" value={name} onChange={handleNameChange}/>
-            <input style={{backgroundColor:"#FFF"}} type="text" placeholder="Subject" name="user_subject" value={subject} onChange={handleSubjectChange}/>
-            <input style={{backgroundColor:"#FFF"}} type="text" placeholder="Email*" name="user_email" value={email} onChange={handleEmailChange}/>
-            <textarea style={{backgroundColor:"#FFF"}} rows="5" placeholder="Message*" name="message" value={message} onChange={handleMessageChange}/>
+            <input style={{backgroundColor:"#FFF"}} type="text" placeholder="   Name*" name="user_name" value={name} onChange={handleNameChange}/>
+            <input style={{backgroundColor:"#FFF"}} type="text" placeholder="   Subject" name="user_subject" value={subject} onChange={handleSubjectChange}/>
+            <input style={{backgroundColor:"#FFF"}} type="text" placeholder="   Email*" name="user_email" value={email} onChange={handleEmailChange}/>
+            <textarea style={{backgroundColor:"#FFF"}} rows="5" placeholder="   Message*" name="message" value={message} onChange={handleMessageChange}/>
             <p>(*mandatory field)</p>
             <button>Submit</button>
             {done && "Thank you!"}
